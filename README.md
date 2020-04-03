@@ -1,5 +1,5 @@
 # scraper-citazioni
-Un piccolo web scraper che trova le citazione di personaggi famosi 
+Un piccolo web scraper che trova le citazioni di personaggi famosi prendendole dalle rispettive pagine di wikipedia
 # Requisiti:
 Vi servono solamente python (versione 3) e alcune sue librerie:
   Beautiful Soup `pip install bs4` 
@@ -7,6 +7,6 @@ Vi servono solamente python (versione 3) e alcune sue librerie:
   
  # Sintassi:
  Per eseguire lo script:
- `python3 scraper.py Nome_Cognome` Nome e Cognome vanno scritti con la prima lettera maiuscola e un _ in mezzo.
+ `python3 scraper.py Nome_Cognome` Nome e Cognome vanno scritti con la prima lettera maiuscola e un _ in mezzo, è necessario per rispettare la sintassi del link di wikipedia da cui lo script prende le informazioni
  poi per stampare a schermo:
  `python3 parser.py`
